@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Lead support visual</title>
+  <desc id="desc">A dark outreach illustration with contact profiles, email cards, and connection lines.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080202"/>
+      <stop offset=".5" stop-color="#260606"/>
+      <stop offset="1" stop-color="#070202"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="42%" cy="34%" r="50%">
+      <stop offset="0" stop-color="#e10d14" stop-opacity=".56"/>
+      <stop offset=".46" stop-color="#7a0708" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#020202" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="420" fill="url(#bg)"/>
+  <rect width="720" height="420" fill="url(#glow)"/>
+  <g stroke="#e10d14" stroke-width="3" stroke-linecap="round" opacity=".65">
+    <path d="M214 158 358 210 506 132"/>
+    <path d="M214 268 358 210 514 284"/>
+  </g>
+  <g>
+    <rect x="76" y="96" width="220" height="124" rx="18" fill="#080202" stroke="#e10d14" stroke-width="3"/>
+    <rect x="424" y="70" width="220" height="124" rx="18" fill="#080202" stroke="#e10d14" stroke-width="3"/>
+    <rect x="424" y="232" width="220" height="124" rx="18" fill="#080202" stroke="#e10d14" stroke-width="3"/>
+    <rect x="250" y="162" width="220" height="124" rx="18" fill="#110404" stroke="#f0d4bc" stroke-opacity=".22"/>
+  </g>
+  <g fill="none" stroke="#f0d4bc" stroke-width="7" stroke-linecap="round">
+    <circle cx="138" cy="142" r="20"/>
+    <path d="M102 190c8-24 64-24 72 0"/>
+    <circle cx="488" cy="116" r="20"/>
+    <path d="M452 164c8-24 64-24 72 0"/>
+    <circle cx="488" cy="278" r="20"/>
+    <path d="M452 326c8-24 64-24 72 0"/>
+  </g>
+  <g stroke="#d9b79e" stroke-width="8" stroke-linecap="round" opacity=".7">
+    <path d="M192 134h54M192 162h70"/>
+    <path d="M542 108h54M542 136h70"/>
+    <path d="M542 270h54M542 298h70"/>
+    <path d="M296 204h128M296 232h92"/>
+  </g>
+  <path d="m318 260 42 28 42-28" fill="none" stroke="#e10d14" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

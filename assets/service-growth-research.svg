@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Growth research visual</title>
+  <desc id="desc">A dark dashboard illustration with a rising chart and analytics cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0303"/>
+      <stop offset=".55" stop-color="#260606"/>
+      <stop offset="1" stop-color="#050202"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="36%" cy="38%" r="52%">
+      <stop offset="0" stop-color="#e10d14" stop-opacity=".62"/>
+      <stop offset=".52" stop-color="#7a0708" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#020202" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="420" fill="url(#bg)"/>
+  <rect width="720" height="420" fill="url(#glow)"/>
+  <g opacity=".18" stroke="#f0d4bc" stroke-width="1">
+    <path d="M80 80h560M80 150h560M80 220h560M80 290h560"/>
+    <path d="M150 50v310M260 50v310M370 50v310M480 50v310M590 50v310"/>
+  </g>
+  <rect x="76" y="58" width="568" height="304" rx="22" fill="#070202" stroke="#e10d14" stroke-width="3"/>
+  <rect x="110" y="95" width="148" height="76" rx="12" fill="#1e0b0b" stroke="#f0d4bc" stroke-opacity=".18"/>
+  <rect x="286" y="95" width="148" height="76" rx="12" fill="#1e0b0b" stroke="#f0d4bc" stroke-opacity=".18"/>
+  <rect x="462" y="95" width="148" height="76" rx="12" fill="#1e0b0b" stroke="#f0d4bc" stroke-opacity=".18"/>
+  <path d="M116 299 206 242l72 28 72-96 82 44 138-104" fill="none" stroke="#e10d14" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M116 326h492" stroke="#f0d4bc" stroke-opacity=".45" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#f0d4bc">
+    <circle cx="206" cy="242" r="8"/>
+    <circle cx="350" cy="174" r="8"/>
+    <circle cx="570" cy="114" r="8"/>
+  </g>
+  <g fill="#d9b79e" opacity=".8">
+    <rect x="128" y="118" width="78" height="10" rx="5"/>
+    <rect x="304" y="118" width="96" height="10" rx="5"/>
+    <rect x="480" y="118" width="64" height="10" rx="5"/>
+  </g>
+</svg>

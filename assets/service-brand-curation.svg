@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Brand curation visual</title>
+  <desc id="desc">A dark moodboard illustration with product tiles, swatches, and curated brand cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b0606"/>
+      <stop offset=".45" stop-color="#070202"/>
+      <stop offset="1" stop-color="#3a0708"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="62%" cy="48%" r="50%">
+      <stop offset="0" stop-color="#e10d14" stop-opacity=".62"/>
+      <stop offset=".48" stop-color="#7a0708" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#020202" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="420" fill="url(#bg)"/>
+  <rect width="720" height="420" fill="url(#glow)"/>
+  <g transform="translate(88 58)">
+    <rect x="0" y="0" width="544" height="304" rx="22" fill="#090202" stroke="#e10d14" stroke-width="3"/>
+    <rect x="34" y="34" width="150" height="112" rx="14" fill="#2a0a0a" stroke="#f0d4bc" stroke-opacity=".18"/>
+    <rect x="206" y="34" width="136" height="112" rx="14" fill="#52080a" stroke="#f0d4bc" stroke-opacity=".18"/>
+    <rect x="364" y="34" width="146" height="112" rx="14" fill="#160606" stroke="#f0d4bc" stroke-opacity=".18"/>
+    <rect x="34" y="168" width="224" height="96" rx="14" fill="#160606" stroke="#f0d4bc" stroke-opacity=".18"/>
+    <rect x="282" y="168" width="228" height="96" rx="14" fill="#260707" stroke="#f0d4bc" stroke-opacity=".18"/>
+    <circle cx="109" cy="90" r="32" fill="#e10d14"/>
+    <circle cx="274" cy="90" r="34" fill="#f0d4bc" opacity=".86"/>
+    <circle cx="437" cy="90" r="31" fill="#7a0708"/>
+    <path d="M72 214h148M72 238h104M322 214h142M322 238h82" stroke="#d9b79e" stroke-width="8" stroke-linecap="round" opacity=".78"/>
+  </g>
+  <g fill="none" stroke="#e10d14" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M574 306 626 276l52 30-52 30-52-30Z"/>
+    <path d="M574 338 626 368l52-30"/>
+  </g>
+</svg>
